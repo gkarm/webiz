@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300;400;700&display=swap');
+
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        etc.
+    5. Media Queries
+////////////////////////*/
+
+:root {
+    --dark-purple: #5722CD;
+}
+
+
+/*Paars #5722CD;*/
+/*Blauw #4845E4;*/
+/*Roze #ED4385;*/
+/*Zwart #0C0C0C (voor standaard tekst);*/
+/*Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services") Uitzonderingen:*/
+/*                                                                                 Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)*/
+/*Grijs #7A7A7A (voor de service-tegel tekst);*/
+
+
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Merryweather, 'Times New Roman', serif;
+}
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+/* --------------- 3.1 Reusables ----------------------- */
+
+.outer-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inner-content-container {
+    flex-basis: 1400px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    flex-direction: column;
+
+}
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+
+header {
+    color: white;
+    background-color: var(--dark-purple);
+}
+
+.header-content_navigation {
+
+}
+
+
+
+/* --------------- 4.2 Introduction ------------------- */
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
